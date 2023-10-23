@@ -1,0 +1,3 @@
+mixin WorkInHouse {
+  void printWorkInHouse();
+}
