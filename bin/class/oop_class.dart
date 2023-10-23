@@ -23,11 +23,7 @@ main() {
   // Circle()..areaOfCircle()..mo7itOfCircle();
 }
 
-class PPP {
-  void ddd() {
-    print("lsdf");
-  }
-}
+/////////////////////////////////
 
 //TODO: User Class
 class User {
@@ -66,6 +62,8 @@ class User {
   }
 }
 
+/////////////////////////////////
+
 //TODO: BankAccount Class
 
 class BankAccount {
@@ -74,7 +72,7 @@ class BankAccount {
   late String operation;
   late int amount;
 
-//
+
   BankAccount() {
     stdout.write("Enter your Account: ");
     passAccount = int.tryParse(stdin.readLineSync()!) ?? 0;
@@ -109,6 +107,8 @@ class BankAccount {
     }
   }
 }
+
+/////////////////////////////////
 
 //TODO: Cars Class
 
@@ -148,6 +148,8 @@ class Cars {
     print("color of car: $color");
   }
 }
+
+/////////////////////////////////
 
 //TODO: Circle Class.
 class Circle {
